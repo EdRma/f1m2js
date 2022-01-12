@@ -1,33 +1,67 @@
-const naam = document.getElementById('naam');
-const omschrijving = document.getElementById('omschrijving');
-const afbeelding = document.getElementById('afbeelding');
-const richtingen = document.getElementById('richtingen');
-const mijnActie = document.getElementById('');
-
-let position = 1;
+const myTitle = document.getElementById("myTitle");
+const myImage = document.getElementById("myImage");
+const myInput = document.getElementById("myInput")
 
 
-const nodes =
-[ 
+let locaties = [
     {
-        "naam": "buiten",
-        "omschrijving":"je staat voor een gebouw",
-        "afbeelding": "0.jpg",
-        "mogelijkheden": [
-            {"richting":"noord","doel":2},
-            {"richting":"zuid","doel":3}
-        ]
-    }
+        "titel":"plaats 0",
+        "image":"img/0.jpg"
+    },
+    {
+        "titel":"plaats 1",
+        "image":"img/1.jpg"
+    },
+    {
+        "titel":"plaats 2",
+        "image":"img/2.jpg"
+    },
+    {
+        "titel":"plaats 3",
+        "image":"img/3.jpg"
+    },
+    {
+        "titel":"plaats 4",
+        "image":"img/4.jpg"
+    },
+    {
+        "titel":"plaats 5",
+        "image":"img/5.jpg"
+    },
+    {
+        "titel":"plaats 6",
+        "image":"img/6.jpg"
+    },
+    {
+        "titel":"plaats 7",
+        "image":"img/7.jpg"
+    },
+    {
+        "titel":"plaats 8",
+        "image":"img/8.jpg"
+    },
+    {
+        "titel":"plaats 9",
+        "image":"img/9.jpg"
+    },
+    {
+        "titel":"plaats 10",
+        "image":"img/10.jpg"
+    },
+    {
+        "titel":"plaats 11",
+        "image":"img/11.jpg"
+    },
 ];
 
-gotoPosition(position);
+function show(index){
+    myTitle.innerHTML = locaties[index].titel;
+    myImage.src = locaties[index].image;
+}
 
-function gotoPosition(pos){
-    naam.innerText = nodes[pos].naam;
-    omschrijving.innerText = nodes[pos].omschrijving;
-    afbeelding.src = "img/" + nodes[pos].afbeelding;
-    richtingen.innerText = "u kunt kiezen uit:";
-    nodes[pos].mogelijkheden.map((r)=>{
-        richtingen.innerHTML += r.richting + "&nbsp;";
-    })
-};
+function getInput(){
+    show(myInput.value)
+    console.log(myInput.value)
+    myInput.value = "";
+    myInput.focus();
+}
