@@ -17,6 +17,18 @@ body{
 #mapImage{
     max-width: 100%;
     height: auto;
-
-    
+}
+nav button{
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+#knopNoord,#knopZuid{
+    display: block;
+    width: 300px;
+}
+#knopOost,#knopWest{
+    display: inline-block;
+    width: 150px;
 }

@@ -1,6 +1,14 @@
 const myTitle = document.getElementById("myTitle");
 const myImage = document.getElementById("myImage");
-const myInput = document.getElementById("myInput")
+const myInput = document.getElementById("myInput"); 
+
+let directionButtons = {
+    "noord": document.getElementById('knopNoord'),
+    "oost": document.getElementById('knopOost'),
+    "zuid": document.getElementById('knopZuid'),
+    "west": document.getElementById('knopWest')
+}
+
 
 let current_index = 0;
 
@@ -109,8 +117,26 @@ function show(index){
     myTitle.innerHTML = locaties[index].titel;
     myImage.src = locaties[index].image;
     current_index = index;
+    //knoppen opnieuw berekenen
+    updateDirections();
 }
-
+function updateDirections(){
+    //haal de mogelijke directions op voor de current_index
+    let possible = locaties[current_index].directions;
+    // zet de direction keys in een aparte variabele
+    let possible_keys = Object.keys(possible);
+    //zet de keys van de buttons in een aparte variable
+    let button_keys = Object.keys(directionButtons);
+    console.log(possible_keys)
+    //zet eerst alle knoppen uit
+    for(const key of button_keys){
+        directionButtons[key].style.visibility = "hidden";
+    }
+    //zet nu de mogelijke knoppen(directions) aan
+    for(const key of possible_keys){
+        directionButtons[key].style.visibility = "visible";
+    }
+}
 function getInput(){
     show(myInput.value)
     myInput.value = "";
@@ -120,3 +146,4 @@ function goDirection(richting){
     let punt_index = locaties[current_index].directions[richting];
     show(punt_index);
 }
+show(0)
