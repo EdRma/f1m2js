@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <img src="https://placekitten.com/806/600" alt="">
+    <img id="img" src="" alt="">
     <script>
         const kat = {
-        naam: "pjoes",
-        leeftijd: 4,
-        hobbies:["slapen","miauwen","drinken"]
+            naam: "pjoes",
+            leeftijd: 4,
+            hobbies: ["slapen", "miauwen", "drinken"],
+            afbeelding: "https://placekitten.com/806/600"
         };
-        imgElement = document.getElementById("img");
+        let imgElement = document.getElementById("img");
+        src = img.kat.afbeelding;
         kat.naam + " is " + kat.leeftijd + " jaar oud.";
         console.log(kat)
     </script>
