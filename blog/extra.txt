@@ -1,0 +1,34 @@
+.box{
+    width: 60vw;
+    height: 400px;
+    position: relative;
+    padding: 0;
+}
+.box > figure{
+    width: 100%;
+    height: 100%;
+}
+
+.box > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.box > img:hover{
+    transform: none;
+}
+.box > section > img{
+    position: absolute;
+    bottom:0%;
+    left:0%;
+    padding: 40px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent,80%,black);
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}

@@ -1,7 +1,8 @@
-body{
-    background-color:burlywood;
+body {
+    background-color: burlywood;
 }
-#container{
+
+#container {
     display: grid;
     background-color: aliceblue;
     width: 900px;
@@ -10,25 +11,31 @@ body{
     grid-template-columns: auto auto;
     border: 2px gray inset;
 }
-#myInteraction{
+
+#myInteraction {
     padding: 10px;
 }
 
-#mapImage{
+#mapImage {
     max-width: 100%;
     height: auto;
 }
-nav button{
+
+nav button {
     background-color: green;
     color: white;
     font-size: 16px;
     padding: 10px;
 }
-#knopNoord,#knopZuid{
+
+#knopNoord,
+#knopZuid {
     display: block;
     width: 300px;
 }
-#knopOost,#knopWest{
+
+#knopOost,
+#knopWest {
     display: inline-block;
     width: 150px;
 }

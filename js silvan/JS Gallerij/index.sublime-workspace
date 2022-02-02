@@ -1,0 +1,250 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"achter",
+				"achterncaam"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"s",
+				"strong\tTag"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"B",
+				"BODY\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Ed/Downloads/Home _ Het Scheepvaartmuseum Amsterdam.html",
+		"/C/Users/Ed/OneDrive - Mediacollege Amsterdam/nova files/front end/Portfolio/index.html",
+		"/D/school progammas/xampp/htdocs/queries7.4.1.html",
+		"/D/school progammas/xampp/htdocs/eindopdrachten blok 3/eindopdracht1 deel 3/inschrijven.php",
+		"/D/school progammas/xampp/htdocs/Opdracht11032021.php",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/back end/opdracht_1.php",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/back end/opdracht_1_php.html",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/back end/opdracht_1",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/back end/opdracht_1_php.php.html",
+		"/D/school progammas/xampp/htdocs/een grote zooi/henkie.php",
+		"/D/school progammas/xampp/htdocs/pipo/henkie.php",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_2/ziggo/website/html_2ziggoopdr.css",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_2ziggoopdr.html",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_2/ziggo/oefeningen/opdracht 01a.html",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_2/ziggo/oefeningen/opdracht 01b.html",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijncv",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijn portfolio_Edgar_Rikkert",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijn portfolio_Edgar_RikkertStyle.css",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijn portfolio_Edgar_Rikkert.html",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijncv.css",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijncv.html",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1opdr1.txt",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijncv_Edgar_Rikkert.html",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1opdr5Style.css",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijncv.Edgar_RikkertStyle.CSS",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijncv.Edgar_Rikkert",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1opdr5",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijncv.CSS",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/mijn portfolio_Edgar_RikkertStyle",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/website_portfolio_Edgar_Rikkert/styleMijnPortfolio",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1opdr4,2.txt",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1opdr5.html",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1eindopdracht.html",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1opdr2.txt",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1opdrCssStyle.css",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1opdrCss.html",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1opdrCssStyle",
+		"/C/Users/Ed/OneDrive - ROC Nova College/school/front end/html_1opdr4,2.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

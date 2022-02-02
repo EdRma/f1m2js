@@ -26,6 +26,34 @@
     padding-left: 10px;
     border:khaki 20px inset;
 }
+.catalog2{
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    width: 100px;
+    height: 350px;
+    color: rgb(247, 23, 23);
+    background-color:rgb(24, 46, 24);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border:khaki 20px inset;
+}
+.git{
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    width: 100px;
+    color:chocolate;
+    background-color:rgb(24, 46, 24);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border:khaki 20px inset;
+    text-decoration: none;
+}
 .head{
     position: absolute;
     left: 500px;

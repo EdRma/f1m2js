@@ -29,12 +29,6 @@ let seizoenen = [
   }
 ];
 
-
-// let seizoen = { 
-//    "titel":"lente",
-//   "image":"img/spring.jpg",
-// };
-
 function show(index){
           myTitle.innerHTML = seizoenen[index].titel;
           myImage.src = seizoenen[index].image;
